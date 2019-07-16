@@ -10,7 +10,15 @@ spring:
    username: root
    password: 123456
 server: 
- port: 9080
+ port: 8068
  
-myww: 123456
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://192.168.168.135:8761/eureka/
+  instance:
+     prefer-ip-address: true
+     
+myww: 
+ 777
  
