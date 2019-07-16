@@ -1,14 +1,16 @@
+logging:
+  config: classpath:log4j2.xml
+Spring:
+  application:
+    name: Client1
 spring: 
  datasource:
    driver-class-name: com.mysql.jdbc.Driver
    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=true
    username: root
    password: 123456
- cloud:
-  config:
-   server:
-    git:
-     basedir: D:\Log
-     
+server: 
+ port: 9080
+ 
 myww: 123456
  
