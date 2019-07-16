@@ -9,3 +9,6 @@ spring:
    server:
     git:
      basedir: D:\Log
+     
+myww: 123456
+ 
